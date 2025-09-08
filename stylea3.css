@@ -1,0 +1,48 @@
+/* generic styles*/
+html {
+    background-color: black;
+    color: whitesmoke
+}
+
+header {
+    color: whitesmoke; 
+    background-color: darkred;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+    background-color: darkred;
+}
+
+/* tags */
+.redbg {
+    background-color: darkred;
+}
+
+
+#yellowhighlight {
+background-color: yellow;
+color: black;
+}
+
+/* links*/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: black; 
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
