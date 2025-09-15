@@ -1,0 +1,76 @@
+/* generic styles*/
+html {
+    background-color: darkblue;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(backpic.jpg);
+}
+
+header {
+    color: whitesmoke; 
+    background-color: darkred;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 15px solid black;
+  padding: 5px;
+  background-color: orange;
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    background-color: darkred;
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* tags */
+.redbg {
+    background-color: darkred;
+}
+
+
+#yellowhighlight {
+background-color: yellow;
+color: black;
+}
+
+/* links*/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: black; 
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.centerpg {
+    text-align: center;
+}
+
+.justify {
+text-align: justify; 
+}
