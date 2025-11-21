@@ -32,7 +32,7 @@ header h1 {
   font-size: 75px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  letter-spacing: 10%;
+  letter-spacing: 8px;
   align-self: center;
   margin-left: 36px;
   text-transform:uppercase;
@@ -60,7 +60,22 @@ header img {
   margin-left: 20px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
-  letter-spacing: 25%;
+  letter-spacing: 30px;
+  text-decoration: underline;
+}
+
+#ktsideheader {
+  grid-column: span 2;
+  grid-row: span 3;
+  color: white;
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  font-size: 150px;
+  text-align: center;
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  letter-spacing: 15px;
   text-decoration: underline;
 }
 
@@ -123,7 +138,7 @@ main {
   border: 5px solid black;
   margin: 25px;
   margin-top: 40px;
-  height: 75%;
+  height: 625px;
   border-top-left-radius:40px;
   border-bottom-right-radius:40px;
 }
