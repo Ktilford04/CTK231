@@ -15,6 +15,30 @@ body {
   grid-template-rows: 178px 200px auto;
 }
 
+#wrapperaudio {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px solid black;
+  padding: 24px;
+  background-color: #cc0000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 178px 100px auto;
+}
+
+#wrappervisual {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px solid black;
+  padding: 24px;
+  background-color: #cc0000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 178px 150px auto;
+}
+
 header {
   grid-column: span 10;
   width:960px;
@@ -85,6 +109,10 @@ nav {
   padding-top: 0px;
 }
 
+#audionav {
+  padding-bottom: 0;
+}
+
 nav ul {
 list-style: none;
 padding: 0;
@@ -147,8 +175,103 @@ nav li:hover {
   grid-column: span 10;
 }
 
+#contactmain h2 {
+  color: white;
+  background-color: darkred;
+  text-decoration: underline;
+  font-size: 85px;
+  border: 2px solid black;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+  width: 800px;
+  margin-top: 0;
+}
+
+#contactmain h3 {
+color: white;
+font-weight: normal;
+font-style: italic;
+font-size: 60px;
+letter-spacing: 2px;
+}
+
+#contactmain h4 {
+font-weight: normal;
+font-style: italic;
+font-size: 60px;
+text-align: right;
+margin-right: 32px;
+}
+
+#contactmain a {
+color: black;
+}
+
 #audiomain {
   grid-column: span 10;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#audiomain h2 {
+  color: white;
+  margin-top: 0;
+  font-weight: normal;
+  font-style: italic;
+  grid-column: span 10;
+  font-size: 60px;
+}
+
+#h2visual {
+  grid-column: span 10;
+  color: white;
+  font-weight: normal;
+  font-size: 60px;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 0;
+  text-align: center;
+} 
+
+#picturesv {
+grid-column: span 10;
+}
+
+#visualmain img {
+  width: 800px;
+  height: auto;
+}
+
+#picturev2 {
+text-align: center;
+}
+
+#picturev3 {
+text-align: right;
+}
+
+#audio2 h2 {
+  text-align: right;
+}
+
+#audiomain img {
+  float: left;
+}
+
+#audiomain audio {
+  
+  clear: both;display: block;
+  margin-top: 80px;
+  padding-bottom: 35px;
+}
+
+#audiomain p {
+  color: white;
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 32px;
+  text-decoration: underline;
 }
 
 #homemain img {
